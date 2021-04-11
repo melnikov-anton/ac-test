@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+form {
+  width: 100%;
+}
+
+
+.content-login {
+  max-width: 500px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.logo {
+  width: 100%;
+}
+
+.headers {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  position: relative;
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.input-field input {
+  font-size: 16px;
+  width: 100%;
+  padding: 12px;
+  padding-left: 40px;
+  border-radius: 40px;
+}
+
+input:focus {
+  color: #2C82DB;
+}
+
+.input-field img {
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  height: 35px;
+}
+
+.btn-login {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 40px;
+  height: 40px;
+  background-color: #2C82DB;
+  border-radius: 20px;
+}
+
+.btn-login:hover {
+  background-color: #3AB3F9;
+  cursor: pointer;
+}
+
+.btn-login .login-text {
+  font-size: 18px;
+  padding-left: 15px;
+  color: white;
+}
+
+.btn-login .login-icon {
+  margin-right: 12px;
+  width: 28px;
+  height: 28px;
+  border: 2px solid white;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-login .login-icon p {
+  color: white;
+  font-size: 16px;
+}
+
+.error {
+  color: red;
+}
+
+/*-------------------------------*/
+
+.content-list {
+  max-width: 800px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.list-header {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-top: solid 10px #2C82DB;
+}
+
+td {
+  padding: 10px;
+  padding-left: 70px;
+}
+
+tr:nth-child(even) {
+  background-color: #E9E9E9;
+}
+
+tr:nth-child(odd) {
+  background-color: #FFFFFF;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 36px;
+  background-color: #E9E9E9;
+}
+
+.btn-logout {
+  cursor: pointer;
+}
+
+.pagination {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.page {
+  margin: 4px;
+  padding: 3px;
+  cursor: pointer;
+  color: black;
+  font-size: 18px;
+}
+
+.current-page {
+  border-bottom: solid 3px #2C82DB;
+}

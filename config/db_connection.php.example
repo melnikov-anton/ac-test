@@ -1,0 +1,8 @@
+<?php
+// Fill in data for database connection
+return [
+  'host' => '',
+  'db_name' => 'ac_db',
+  'username' => '',
+  'password' => ''
+];
